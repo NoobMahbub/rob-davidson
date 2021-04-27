@@ -1,0 +1,217 @@
+/* Reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Main Styling */
+
+html,body{
+    font-family: font-family: 'Roboto', sans-serif;
+}
+a{
+    color: #3C3C3C;
+    text-decoration: none;
+}
+h1,h2,h3{
+    padding-bottom: 10px;
+}
+h1{ text-align: center;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 48px;
+}
+
+p{
+    margin: 20px 0;
+    color: #3E3E3E;
+}
+
+/* Utility Classes */
+.container{
+    max-width: 1100px;
+    margin: 0 auto;
+    overflow: hidden;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.btn {
+    background: linear-gradient(90deg, rgba(244,96,96,1) 0%, rgba(244,96,96,1) 44%, rgba(244,96,96,1) 100%);
+    display: inline-block;
+    padding: 10px 30px;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+    letter-spacing: 1px;
+    font-family: 'Bebas Neue', cursive;
+}
+
+/* Navbar */
+#navbar ul li{
+    display: inline-block;
+    list-style: none;
+    float: right;
+}
+
+#navbar ul li a{
+    display: block;
+    padding: 20px;
+    text-align: center;
+}
+/* Intro */
+#intro .intro-text{
+    float:left;
+    text-align: left;
+}
+#intro .intro-text h2{
+    padding-top: 50px;
+    color: #363958;
+    font-family: 'Bebas Neue', cursive; 
+    font-size: 5rem;
+}
+#intro .intro-text span{
+    display: block;
+    color:#FF8367;
+}
+#intro .intro-img img{ 
+    float: right;
+    width: 50%;  
+    padding: 20px;
+    
+}
+
+#intro .circle{
+    position: absolute;
+    right: 200px;
+    bottom: 100px;
+    background: linear-gradient(90deg, rgba(244,96,96,1) 0%, rgba(244,96,96,1) 44%, rgba(244,96,96,1) 100%);
+    border-radius: 50%;
+    box-shadow: 0.375em 0.375em 0 0 rgba(15, 28, 63, 0.125);
+    height: 110px;
+    width: 110px;
+}
+/* About */
+#about .about-img img{
+    float: left;
+    width: 50%;  
+    padding: 5px;
+}
+#about .about-text{
+    float:right;
+    text-align: left;
+    width: 50%;
+    padding-top: 300px;
+    padding-left: 100px;;
+    padding-bottom:100px;
+}
+/* Work */
+
+#work {
+    background: #f8f9fc;
+    width: 100%;
+    padding: 100px 0px;
+}
+#work span{
+    color: #F46060;
+}
+#work h3{
+    margin: 0;
+    padding: 20px 0;
+    font-size: 22px;
+    color: #363958;
+}
+/* gym */
+#work .gym{
+    float:left;
+    width: 33.3%;
+    padding: 50px;
+    text-align: center;
+
+}
+
+
+#work .gym img{
+    max-width: 100%;
+    border-radius: 10px;
+}
+#work .gym p{
+    margin: 0;
+}
+
+/* inquiry  */
+#inquiry{
+    margin-top: 50px;
+    margin-bottom: 100px;
+    margin-left: 100px;
+}
+
+#inquiry .inquiry-btn {
+    background: #5D69E9;
+    background-image: -webkit-linear-gradient(top, #5D69E9, #4225B6);
+    background-image: -moz-linear-gradient(top, #5D69E9, #4225B6);
+    background-image: -ms-linear-gradient(top, #5D69E9, #4225B6);
+    background-image: -o-linear-gradient(top, #5D69E9, #4225B6);
+    background-image: linear-gradient(to bottom, #5D69E9, #4225B6);
+    -webkit-border-radius: 10;
+    -moz-border-radius: 10;
+    border-radius: 0.625rem;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 50px;
+    padding: 0.625rem 6.25rem 0.625rem 6.25rem;
+    text-decoration: none;
+    float: left;
+    margin: 2%;
+    overflow: hidden;
+ 
+  }
+  #inquiry h2{
+    font-family: 'Bebas Neue', cursive;
+      float: left;
+      text-align: left;
+      font-size: 60px;
+      padding: 20px;
+      margin-right: 20px;
+  }
+  #inquiry .btn{
+      margin: 35px 0px 20px 60px;
+      float: right;
+      font-family: 'Bebas Neue', cursive;
+      font-size: 16px
+      ;
+  }
+  #inquiry img{
+    position: absolute;
+    width: 100px; 
+    object-fit: cover;
+    object-position: 20px 10px;
+    filter:brightness(0) invert(1);
+    opacity: 0.8;
+    left: 1020px;
+    top: 2050px;
+
+
+  }
+  /* Footer */
+  #footer{
+    text-align: center;
+}
+
+#footer h3{
+    
+    font-family: 'Bebas Neue', cursive;
+    text-align:center;
+    color: #696871;
+}
+#footer ul li img{
+    width: 40px;
+    height: 40px;
+   
+}
+#footer ul li{
+   
+    list-style: none;
+    display: inline;
+}
+
