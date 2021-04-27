@@ -1,4 +1,5 @@
 html,body{
+    overflow-x:hidden;
     width: 50vmax;
     position: absolute;
 }
