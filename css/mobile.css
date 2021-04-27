@@ -52,7 +52,7 @@ html,body{
 }
 #about .about-text{
 float: left;
-width: 70%;
+width: 100%;
 }
 
 /* inquiry */
